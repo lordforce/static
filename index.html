@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="lordforce.org offers free web tools and games">
+    <meta name="keywords" content="Game, HTML, ASCII, IP, GEO, Domain, Tool">
+    <meta name="author" content="ArthurChiu">
+
+    <title>lordforce.org</title>
+
+    <!-- Bootstrap core and other CSS -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="static/css/dash-light.css" rel="stylesheet">
+    <link href="static/css/wtool.css" rel="stylesheet">
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elemdnts and media queries -->
+    <!--[if lt IE 9]>
+      <script src="static/js/html5shiv.js"></script>
+      <script src="static/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicon -->
+    
+    
+
+  </head>
+
+  <body style="display:block">
+    <!-- Dash Navbar Top 
+    Available versions: dnl-visible, dnl-hidden -->
+    <nav class="navbar navbar-static-top dash-navbar-top dnl-visible">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dnt-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="fa fa-ellipsis-v"></span>
+          </button>
+          <button class="dnl-btn-toggle">
+            <span class="fa fa-bars"></span>
+          </button>
+          <a class="navbar-brand" translated="" href="">lordforce.org <span>beta</span></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="dnt-collapse">
+          <!-- This dropdown is for normal links -->
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Contact</a></li>
+            <li class="dropdown">
+              <a title="Change Languages" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Languages<span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu" translated="">
+                <li><a href="">English</a></li>
+                <li><a href="">繁體中文</a></li>
+              </ul>
+            </li>
+          </ul>        
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav> <!-- /.navbar -->
+    <!-- Dash Navbar Left 
+    Available versions: dnl-visible, dnl-hidden -->
+    <div class="dash-navbar-left dnl-visible">
+      <p class="dnl-nav-title">Tools</p>
+      <ul class="dnl-nav">
+        <li>
+          <a href="">
+            <span class="fa fa-fw fa-dot-circle-o dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">Your IP</span>
+          </a>
+        </li>
+        <li>
+          <a href="IPGEOLocation.html">
+            <span class="fa fa-fw fa-globe dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">IP GEO Location</span>
+          </a>
+        </li>
+        <li>
+          <a href="photoHandle.html">
+            <span class="fa fa-fw fa-picture-o dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">Image Editor</span>
+          </a>
+        </li>
+        <li>
+          <a class="collapsed" data-toggle="collapse" href="#collapseSecurity" aria-expanded="false" aria-controls="collapseSecurity">
+            <span class="fa fa-fw fa-lock dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">Security</span>
+            <span class="fa fa-angle-up dnl-btn-sub-collapse" aria-hidden="true"></span>
+          </a>
+          <!-- Dropdown level one -->
+          <ul class="dnl-sub-one collapse" id="collapseSecurity">
+            <li>
+              <a href="passwordGenerator.html">
+                <span class="fa fa-fw fa-key dnl-link-icon" aria-hidden="true"></span>
+                <span class="dnl-link-text">Password Generator</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a class="collapsed" data-toggle="collapse" href="#collapseDomain" aria-expanded="false" aria-controls="collapseDomain">
+            <span class="fa fa-fw fa-dot-circle-o dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">Domain</span>
+            <span class="fa fa-angle-up dnl-btn-sub-collapse" aria-hidden="true"></span>
+          </a>
+          <!-- Dropdown level one -->
+          <ul class="dnl-sub-one collapse" id="collapseDomain">
+            <li>
+              <a href="#">
+                <span class="fa fa-fw fa-dot-circle-o dnl-link-icon" aria-hidden="true"></span>
+                <span class="dnl-link-text">Whois</span>
+              </a>
+            </li>
+            <li>
+              <a href="Punycode.html">
+                <span class="fa fa-fw fa-language dnl-link-icon" aria-hidden="true"></span>
+                <span class="dnl-link-text">Punycode IDN Converter</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a class="collapsed" data-toggle="collapse" href="#collapseConverter" aria-expanded="false" aria-controls="collapseConverter">
+            <span class="fa fa-fw fa-exchange dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">Converter</span>
+            <span class="fa fa-angle-up dnl-btn-sub-collapse" aria-hidden="true"></span>
+          </a>
+          <!-- Dropdown level one -->
+          <ul class="dnl-sub-one collapse" id="collapseConverter">
+            <li>
+              <a href="HTMLentityEncoder.html">
+                <span class="fa fa-fw fa-code dnl-link-icon" aria-hidden="true"></span>
+                <span class="dnl-link-text">HTML Entity En/Decoder</span>
+              </a>
+            </li>
+            <li>
+              <a href="URLencoder.html">
+                <span class="fa fa-fw fa-code dnl-link-icon" aria-hidden="true"></span>
+                <span class="dnl-link-text">URL En/Decoder</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="index7.html">
+            <span class="fa fa-fw fa-youtube dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">Youtube Player</span>          </a>
+        </li>
+      </ul>
+
+      <p class="dnl-nav-title">Game</p>
+      <ul class="dnl-nav">
+        <li>
+          <a href="index8.html">
+            <span class="fa fa-fw fa-dot-circle-o dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">2048</span>
+          </a>
+        </li>
+        <li>
+          <a href="index9.html">
+            <span class="fa fa-fw fa-dot-circle-o dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">A Dark Room</span>
+          </a>
+        </li>
+      </ul>
+
+      <p class="dnl-nav-title">Document</p>
+      <ul class="dnl-nav">
+        <li>
+          <a class="collapsed" data-toggle="collapse" href="#collapseCheatSheet" aria-expanded="false" aria-controls="collapseCheatSheet">
+            <span class="fa fa-fw fa-table dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">Cheat Sheet</span>
+            <span class="fa fa-angle-up dnl-btn-sub-collapse" aria-hidden="true"></span>
+          </a>
+          <!-- Dropdown level one -->
+          <ul class="dnl-sub-one collapse" id="collapseCheatSheet">
+            <li>
+              <a href="ASCIICode.html">
+                <span class="fa fa-fw fa-dot-circle-o dnl-link-icon" aria-hidden="true"></span>
+                <span class="dnl-link-text">ASCII Code</span>
+              </a>
+            </li>
+            <li>
+              <a href="HTMLCode.html">
+                <span class="fa fa-fw fa-dot-circle-o dnl-link-icon" aria-hidden="true"></span>
+                <span class="dnl-link-text">HTML Code</span>
+              </a>
+            </li>
+            <li>
+              <a href="CSSNamedColors.html">
+                <span class="fa fa-fw fa-dot-circle-o dnl-link-icon" aria-hidden="true"></span>
+                <span class="dnl-link-text">CSS Named Colors</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="index13.html">
+            <span class="fa fa-fw fa-dot-circle-o dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">Style Guide</span>
+          </a>
+        </li>
+      </ul>
+    </div> <!-- /.dash-navbar-left -->
+
+    <div class="content-wrap dnl-visible content-opacity" data-effect="dnl-overlay">
+      <div class="container-fluid">
+        <h2>Your IP</h2>
+
+        <div class="table-responsive">
+          <table class="table table-hover table-striped">
+            <tbody>
+              <tr>
+                <td><b>IP:</b></td>
+                <td translated="">119.28.225.25</td>
+              </tr>
+              <tr>
+                <td><b>Hostname:</b></td>
+                <td translated="">119.28.225.25</td>
+              </tr>
+              <tr>
+                <td><b>Protocol:</b></td>
+                <td translated="">HTTP/1.1</td>
+              </tr>
+              <tr>
+                <td><b>HTTP Connection:</b></td>
+                <td translated="">close</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Location</h3>
+        <div class="table-responsive">
+          <table class="table table-hover table-striped">
+            <tbody>
+              <tr>
+                <td><b>Country:</b></td>
+                <td translated="">China&nbsp;<img src="static/picture/China.gif"></td>
+              </tr>
+              <tr>
+                <td><b>Region:</b></td>
+                <td translated="">Beijing</td>
+              </tr>
+              <tr>
+                <td><b>City:</b></td>
+                <td translated="">Beijing</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div align="center">
+         <img src="http://maps.googleapis.com/maps/api/staticmap?zoom=4&size=500x250&markers=color:red%7C39.9289,116.3883&sensor=false">
+        </div>
+
+        <h3>Browser</h3>
+        <div class="table-responsive">
+          <table class="table table-hover table-striped">
+            <tbody>
+              <tr>
+                <td><b>User Agent:</b></td>
+                <td translated="">Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36</td>
+              </tr>
+              <tr>
+                <td><b>Language:</b></td>
+                <td translated="">zh-CN,zh;q=0.9</td>
+              </tr>
+              <tr>
+                <td><b>Accepted Types:</b></td>
+                <td translated="">text/html, application/xhtml+xml, application/xml;q=0.9, image/webp, image/apng, */*;q=0.8, application/signed-exchange;v=b3</td>
+              </tr>
+              <tr>
+                <td><b>Accepted Encodings:</b></td>
+                <td translated="">gzip, deflate</td>
+              </tr>
+            <!--
+              <tr>
+                <td width=200><b>Accepted Charsets:</b></td>
+                <td translated></td>
+              </tr> 
+            -->
+              <tr>
+                <td><b>Referer:</b></td>
+                <td translated="">http://lordforce.org/</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </div> <!-- /.content-wrap -->
+
+
+	
+	<!-- Le javaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="static/js/jquery-1.10.2.min.js"></script>
+	<script src="static/js/bootstrap.min.js"></script>
+	<script src="static/js/jquery.touchSwipe.min.js"></script>
+	<script src="static/js/dash.js"></script>
+
+	<script src="static/js/i18nextify.min.js"></script>
+	<script type="text/javascript">
+		window.i18nextify.init({
+			debug: false,
+			//whitelist: ['en', 'zh-TW', 'zh-CN'],
+			//lngs: ['en', 'zh-TW', 'zh-CN'],
+			//preload: ['zh-TW', 'en', 'zh-CN'],
+			//fallbackLng: "en",
+			fallbackLng: false,
+			//load: "currentOnly",
+			namespaceFromPath: true,
+			backend: {
+				loadPath: "//lordforce.org/locales/{{lng}}/{{ns}}.json"
+			},
+			ns: ["translation"],
+         //defaultNS: 'image-editor',
+         fallbackNS: 'translation',
+		});
+	</script>
+
+	<script type="text/javascript">
+		// Ref: 
+		// http://w3bits.com/async-javascript/
+		// http://ajaxpatterns.org/On-Demand_Javascript
+		// http://friendlybit.com/js/lazy-loading-asyncronous-javascript/
+		// http://www.jaceju.net/blog/archives/beginning-requirejs/
+		// http://josephj.com/entry.php?id=394
+		function lazyLoadScript(url, async) {
+			var s = document.createElement('script');
+			s.type = 'text/javascript';
+			if (typeof async === 'boolean' && async == true){
+				s.async = true;
+			}
+			else {
+				s.async = false;
+			}
+			s.src = url;
+			var x = document.getElementsByTagName('head')[0];
+			x.appendChild(s);
+		}
+
+		
+		document.addEventListener('DOMContentLoaded', function() {
+
+			
+		});
+	</script>
+
+  </body>
+</html>

@@ -1,0 +1,30 @@
+#permalink, code {
+	font-family: Monaco, Consolas, monospace;
+}
+
+#footer {
+	margin-top: 2em;
+	text-align: center;
+}
+
+code {
+	border: 1px dotted #666;
+	padding: .2em;
+}
+
+strong {
+	padding: .5em;
+	border: 3px double green;
+	background: #90ee90;
+}
+
+.fail {
+	border-color: red;
+	background: #ffb6c1;
+}
+
+#invalid {
+	display: none;
+	font-weight: bold;
+	color: #b00b00;
+}

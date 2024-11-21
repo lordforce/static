@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="lordforce.org offers free web tools and games">
+    <meta name="keywords" content="Game, HTML, ASCII, IP, GEO, Domain, Tool">
+    <meta name="author" content="ArthurChiu">
+
+    <title>
+Css Named Colors -  lordforce.org</title>
+
+    <!-- Bootstrap core and other CSS -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="static/css/dash-light.css" rel="stylesheet">
+    <link href="static/css/wtool.css" rel="stylesheet">
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elemdnts and media queries -->
+    <!--[if lt IE 9]>
+      <script src="static/js/html5shiv.js"></script>
+      <script src="static/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicon -->
+    
+    
+
+  </head>
+
+  <body style="display:block">
+    <!-- Dash Navbar Top 
+    Available versions: dnl-visible, dnl-hidden -->
+    <nav class="navbar navbar-static-top dash-navbar-top dnl-visible">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dnt-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="fa fa-ellipsis-v"></span>
+          </button>
+          <button class="dnl-btn-toggle">
+            <span class="fa fa-bars"></span>
+          </button>
+          <a class="navbar-brand" translated="" href="index.html">lordforce.org <span>beta</span></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="dnt-collapse">
+          <!-- This dropdown is for normal links -->
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Contact</a></li>
+            <li class="dropdown">
+              <a title="Change Languages" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Languages<span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu" translated="">
+                <li><a href="">English</a></li>
+                <li><a href="">繁體中文</a></li>
+              </ul>
+            </li>
+          </ul>        
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav> <!-- /.navbar -->
+    <!-- Dash Navbar Left 
+    Available versions: dnl-visible, dnl-hidden -->
+    <div class="dash-navbar-left dnl-visible">
+      <p class="dnl-nav-title">Tools</p>
+      <ul class="dnl-nav">
+        <li>
+          <a href="index.html">
+            <span class="fa fa-fw fa-dot-circle-o dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">Your IP</span>
+          </a>
+        </li>
+        <li>
+          <a href="IPGEOLocation.html">
+            <span class="fa fa-fw fa-globe dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">IP GEO Location</span>
+          </a>
+        </li>
+        <li>
+          <a href="photoHandle.html">
+            <span class="fa fa-fw fa-picture-o dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">Image Editor</span>
+          </a>
+        </li>
+        <li>
+          <a class="collapsed" data-toggle="collapse" href="#collapseSecurity" aria-expanded="false" aria-controls="collapseSecurity">
+            <span class="fa fa-fw fa-lock dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">Security</span>
+            <span class="fa fa-angle-up dnl-btn-sub-collapse" aria-hidden="true"></span>
+          </a>
+          <!-- Dropdown level one -->
+          <ul class="dnl-sub-one collapse" id="collapseSecurity">
+            <li>
+              <a href="passwordGenerator.html">
+                <span class="fa fa-fw fa-key dnl-link-icon" aria-hidden="true"></span>
+                <span class="dnl-link-text">Password Generator</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a class="collapsed" data-toggle="collapse" href="#collapseDomain" aria-expanded="false" aria-controls="collapseDomain">
+            <span class="fa fa-fw fa-dot-circle-o dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">Domain</span>
+            <span class="fa fa-angle-up dnl-btn-sub-collapse" aria-hidden="true"></span>
+          </a>
+          <!-- Dropdown level one -->
+          <ul class="dnl-sub-one collapse" id="collapseDomain">
+            <li>
+              <a href="#">
+                <span class="fa fa-fw fa-dot-circle-o dnl-link-icon" aria-hidden="true"></span>
+                <span class="dnl-link-text">Whois</span>
+              </a>
+            </li>
+            <li>
+              <a href="Punycode.html">
+                <span class="fa fa-fw fa-language dnl-link-icon" aria-hidden="true"></span>
+                <span class="dnl-link-text">Punycode IDN Converter</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a class="collapsed" data-toggle="collapse" href="#collapseConverter" aria-expanded="false" aria-controls="collapseConverter">
+            <span class="fa fa-fw fa-exchange dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">Converter</span>
+            <span class="fa fa-angle-up dnl-btn-sub-collapse" aria-hidden="true"></span>
+          </a>
+          <!-- Dropdown level one -->
+          <ul class="dnl-sub-one collapse" id="collapseConverter">
+            <li>
+              <a href="HTMLentityEncoder.html">
+                <span class="fa fa-fw fa-code dnl-link-icon" aria-hidden="true"></span>
+                <span class="dnl-link-text">HTML Entity En/Decoder</span>
+              </a>
+            </li>
+            <li>
+              <a href="URLencoder.html">
+                <span class="fa fa-fw fa-code dnl-link-icon" aria-hidden="true"></span>
+                <span class="dnl-link-text">URL En/Decoder</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="index7.html">
+            <span class="fa fa-fw fa-youtube dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">Youtube Player</span>          </a>
+        </li>
+      </ul>
+
+      <p class="dnl-nav-title">Game</p>
+      <ul class="dnl-nav">
+        <li>
+          <a href="index8.html">
+            <span class="fa fa-fw fa-dot-circle-o dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">2048</span>
+          </a>
+        </li>
+        <li>
+          <a href="index9.html">
+            <span class="fa fa-fw fa-dot-circle-o dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">A Dark Room</span>
+          </a>
+        </li>
+      </ul>
+
+      <p class="dnl-nav-title">Document</p>
+      <ul class="dnl-nav">
+        <li>
+          <a class="collapsed" data-toggle="collapse" href="#collapseCheatSheet" aria-expanded="false" aria-controls="collapseCheatSheet">
+            <span class="fa fa-fw fa-table dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">Cheat Sheet</span>
+            <span class="fa fa-angle-up dnl-btn-sub-collapse" aria-hidden="true"></span>
+          </a>
+          <!-- Dropdown level one -->
+          <ul class="dnl-sub-one collapse" id="collapseCheatSheet">
+            <li>
+              <a href="ASCIICode.html">
+                <span class="fa fa-fw fa-dot-circle-o dnl-link-icon" aria-hidden="true"></span>
+                <span class="dnl-link-text">ASCII Code</span>
+              </a>
+            </li>
+            <li>
+              <a href="HTMLCode.html">
+                <span class="fa fa-fw fa-dot-circle-o dnl-link-icon" aria-hidden="true"></span>
+                <span class="dnl-link-text">HTML Code</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span class="fa fa-fw fa-dot-circle-o dnl-link-icon" aria-hidden="true"></span>
+                <span class="dnl-link-text">CSS Named Colors</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="index13.html">
+            <span class="fa fa-fw fa-dot-circle-o dnl-link-icon" aria-hidden="true"></span>
+            <span class="dnl-link-text">Style Guide</span>
+          </a>
+        </li>
+      </ul>
+    </div> <!-- /.dash-navbar-left -->
+    <div class="content-wrap dnl-visible content-opacity" data-effect="dnl-overlay">
+      <div class="container-fluid">
+        <h2>CSS Named Colors</h2>
+
+        <div class="table-responsive col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+   <p>16 of CSS’s named colors come from HTML originally:
+	aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, purple, red, silver, teal, white, and yellow.
+	Most of the rest
+	come from one version of the X11 color system,
+	used in Unix-derived systems to specify colors for the console.
+	(Two special color values, <a class="css" data-link-type="maybe" href="#valdef-color-transparent" id="ref-for-valdef-color-transparent-2">transparent</a> and <a class="css" data-link-type="maybe" href="#valdef-color-currentcolor" id="ref-for-valdef-color-currentcolor-8">currentcolor</a>,
+		are specially defined in their own sections.)</p>
+
+   <p>The following table defines all of the opaque named colors, by giving equivalent numeric specifications in the other color syntaxes.</p>
+
+          <table class="table table-hover table-striped table-condensed">
+
+    <thead>
+     <tr>
+      <th>Named 
+      </th><th>Numeric 
+      </th><th>Color name 
+      </th><th>Hex rgb 
+      </th><th>Decimal 
+    <tbody>
+     <tr>
+      <td style="background:aliceblue">
+      </td><td style="background:#f0f8ff">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-aliceblue">aliceblue<a class="self-link" href="#valdef-color-aliceblue"></a></dfn>
+      </th><td>#f0f8ff
+      </td><td>240 248 255 
+     </td></tr><tr>
+      <td style="background:antiquewhite">
+      </td><td style="background:#faebd7">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-antiquewhite">antiquewhite<a class="self-link" href="#valdef-color-antiquewhite"></a></dfn>
+      </th><td>#faebd7
+      </td><td>250 235 215 
+     </td></tr><tr>
+      <td style="background:aqua">
+      </td><td style="background:#00ffff">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-aqua">aqua<a class="self-link" href="#valdef-color-aqua"></a></dfn>
+      </th><td>#00ffff
+      </td><td>0 255 255 
+     </td></tr><tr>
+      <td style="background:aquamarine">
+      </td><td style="background:#7fffd4">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-aquamarine">aquamarine<a class="self-link" href="#valdef-color-aquamarine"></a></dfn>
+      </th><td>#7fffd4
+      </td><td>127 255 212 
+     </td></tr><tr>
+      <td style="background:azure">
+      </td><td style="background:#f0ffff">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-azure">azure<a class="self-link" href="#valdef-color-azure"></a></dfn>
+      </th><td>#f0ffff
+      </td><td>240 255 255 
+     </td></tr><tr>
+      <td style="background:beige">
+      </td><td style="background:#f5f5dc">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-beige">beige<a class="self-link" href="#valdef-color-beige"></a></dfn>
+      </th><td>#f5f5dc
+      </td><td>245 245 220 
+     </td></tr><tr>
+      <td style="background:bisque">
+      </td><td style="background:#ffe4c4">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-bisque">bisque<a class="self-link" href="#valdef-color-bisque"></a></dfn>
+      </th><td>#ffe4c4
+      </td><td>255 228 196 
+     </td></tr><tr>
+      <td style="background:black">
+      </td><td style="background:#000000">
+      </td><th scope="row"><dfn class="dfn-paneled css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-black">black</dfn>
+      </th><td>#000000
+      </td><td>0 0 0 
+     </td></tr><tr>
+      <td style="background:blanchedalmond">
+      </td><td style="background:#ffebcd">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-blanchedalmond">blanchedalmond<a class="self-link" href="#valdef-color-blanchedalmond"></a></dfn>
+      </th><td>#ffebcd
+      </td><td>255 235 205 
+     </td></tr><tr>
+      <td style="background:blue">
+      </td><td style="background:#0000ff">
+      </td><th scope="row"><dfn class="dfn-paneled css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-blue">blue</dfn>
+      </th><td>#0000ff
+      </td><td>0 0 255 
+     </td></tr><tr>
+      <td style="background:blueviolet">
+      </td><td style="background:#8a2be2">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-blueviolet">blueviolet<a class="self-link" href="#valdef-color-blueviolet"></a></dfn>
+      </th><td>#8a2be2
+      </td><td>138 43 226 
+     </td></tr><tr>
+      <td style="background:brown">
+      </td><td style="background:#a52a2a">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-brown">brown<a class="self-link" href="#valdef-color-brown"></a></dfn>
+      </th><td>#a52a2a
+      </td><td>165 42 42 
+     </td></tr><tr>
+      <td style="background:burlywood">
+      </td><td style="background:#deb887">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-burlywood">burlywood<a class="self-link" href="#valdef-color-burlywood"></a></dfn>
+      </th><td>#deb887
+      </td><td>222 184 135 
+     </td></tr><tr>
+      <td style="background:cadetblue">
+      </td><td style="background:#5f9ea0">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-cadetblue">cadetblue<a class="self-link" href="#valdef-color-cadetblue"></a></dfn>
+      </th><td>#5f9ea0
+      </td><td>95 158 160 
+     </td></tr><tr>
+      <td style="background:chartreuse">
+      </td><td style="background:#7fff00">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-chartreuse">chartreuse<a class="self-link" href="#valdef-color-chartreuse"></a></dfn>
+      </th><td>#7fff00
+      </td><td>127 255 0 
+     </td></tr><tr>
+      <td style="background:chocolate">
+      </td><td style="background:#d2691e">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-chocolate">chocolate<a class="self-link" href="#valdef-color-chocolate"></a></dfn>
+      </th><td>#d2691e
+      </td><td>210 105 30 
+     </td></tr><tr>
+      <td style="background:coral">
+      </td><td style="background:#ff7f50">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-coral">coral<a class="self-link" href="#valdef-color-coral"></a></dfn>
+      </th><td>#ff7f50
+      </td><td>255 127 80 
+     </td></tr><tr>
+      <td style="background:cornflowerblue">
+      </td><td style="background:#6495ed">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-cornflowerblue">cornflowerblue<a class="self-link" href="#valdef-color-cornflowerblue"></a></dfn>
+      </th><td>#6495ed
+      </td><td>100 149 237 
+     </td></tr><tr>
+      <td style="background:cornsilk">
+      </td><td style="background:#fff8dc">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-cornsilk">cornsilk<a class="self-link" href="#valdef-color-cornsilk"></a></dfn>
+      </th><td>#fff8dc
+      </td><td>255 248 220 
+     </td></tr><tr>
+      <td style="background:crimson">
+      </td><td style="background:#dc143c">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-crimson">crimson<a class="self-link" href="#valdef-color-crimson"></a></dfn>
+      </th><td>#dc143c
+      </td><td>220 20 60 
+     </td></tr><tr>
+      <td style="background:cyan">
+      </td><td style="background:#00ffff">
+      </td><th scope="row"><dfn class="dfn-paneled css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-cyan">cyan</dfn>
+      </th><td>#00ffff
+      </td><td>0 255 255 
+     </td></tr><tr>
+      <td style="background:darkblue">
+      </td><td style="background:#00008b">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-darkblue">darkblue<a class="self-link" href="#valdef-color-darkblue"></a></dfn>
+      </th><td>#00008b
+      </td><td>0 0 139 
+     </td></tr><tr>
+      <td style="background:darkcyan">
+      </td><td style="background:#008b8b">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-darkcyan">darkcyan<a class="self-link" href="#valdef-color-darkcyan"></a></dfn>
+      </th><td>#008b8b
+      </td><td>0 139 139 
+     </td></tr><tr>
+      <td style="background:darkgoldenrod">
+      </td><td style="background:#b8860b">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-darkgoldenrod">darkgoldenrod<a class="self-link" href="#valdef-color-darkgoldenrod"></a></dfn>
+      </th><td>#b8860b
+      </td><td>184 134 11 
+     </td></tr><tr>
+      <td style="background:darkgray">
+      </td><td style="background:#a9a9a9">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-darkgray">darkgray<a class="self-link" href="#valdef-color-darkgray"></a></dfn>
+      </th><td>#a9a9a9
+      </td><td>169 169 169 
+     </td></tr><tr>
+      <td style="background:darkgreen">
+      </td><td style="background:#006400">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-darkgreen">darkgreen<a class="self-link" href="#valdef-color-darkgreen"></a></dfn>
+      </th><td>#006400
+      </td><td>0 100 0 
+     </td></tr><tr>
+      <td style="background:darkgrey">
+      </td><td style="background:#a9a9a9">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-darkgrey">darkgrey<a class="self-link" href="#valdef-color-darkgrey"></a></dfn>
+      </th><td>#a9a9a9
+      </td><td>169 169 169 
+     </td></tr><tr>
+      <td style="background:darkkhaki">
+      </td><td style="background:#bdb76b">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-darkkhaki">darkkhaki<a class="self-link" href="#valdef-color-darkkhaki"></a></dfn>
+      </th><td>#bdb76b
+      </td><td>189 183 107 
+     </td></tr><tr>
+      <td style="background:darkmagenta">
+      </td><td style="background:#8b008b">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-darkmagenta">darkmagenta<a class="self-link" href="#valdef-color-darkmagenta"></a></dfn>
+      </th><td>#8b008b
+      </td><td>139 0 139 
+     </td></tr><tr>
+      <td style="background:darkolivegreen">
+      </td><td style="background:#556b2f">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-darkolivegreen">darkolivegreen<a class="self-link" href="#valdef-color-darkolivegreen"></a></dfn>
+      </th><td>#556b2f
+      </td><td>85 107 47 
+     </td></tr><tr>
+      <td style="background:darkorange">
+      </td><td style="background:#ff8c00">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-darkorange">darkorange<a class="self-link" href="#valdef-color-darkorange"></a></dfn>
+      </th><td>#ff8c00
+      </td><td>255 140 0 
+     </td></tr><tr>
+      <td style="background:darkorchid">
+      </td><td style="background:#9932cc">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-darkorchid">darkorchid<a class="self-link" href="#valdef-color-darkorchid"></a></dfn>
+      </th><td>#9932cc
+      </td><td>153 50 204 
+     </td></tr><tr>
+      <td style="background:darkred">
+      </td><td style="background:#8b0000">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-darkred">darkred<a class="self-link" href="#valdef-color-darkred"></a></dfn>
+      </th><td>#8b0000
+      </td><td>139 0 0 
+     </td></tr><tr>
+      <td style="background:darksalmon">
+      </td><td style="background:#e9967a">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-darksalmon">darksalmon<a class="self-link" href="#valdef-color-darksalmon"></a></dfn>
+      </th><td>#e9967a
+      </td><td>233 150 122 
+     </td></tr><tr>
+      <td style="background:darkseagreen">
+      </td><td style="background:#8fbc8f">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-darkseagreen">darkseagreen<a class="self-link" href="#valdef-color-darkseagreen"></a></dfn>
+      </th><td>#8fbc8f
+      </td><td>143 188 143 
+     </td></tr><tr>
+      <td style="background:darkslateblue">
+      </td><td style="background:#483d8b">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-darkslateblue">darkslateblue<a class="self-link" href="#valdef-color-darkslateblue"></a></dfn>
+      </th><td>#483d8b
+      </td><td>72 61 139 
+     </td></tr><tr>
+      <td style="background:darkslategray">
+      </td><td style="background:#2f4f4f">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-darkslategray">darkslategray<a class="self-link" href="#valdef-color-darkslategray"></a></dfn>
+      </th><td>#2f4f4f
+      </td><td>47 79 79 
+     </td></tr><tr>
+      <td style="background:darkslategrey">
+      </td><td style="background:#2f4f4f">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-darkslategrey">darkslategrey<a class="self-link" href="#valdef-color-darkslategrey"></a></dfn>
+      </th><td>#2f4f4f
+      </td><td>47 79 79 
+     </td></tr><tr>
+      <td style="background:darkturquoise">
+      </td><td style="background:#00ced1">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-darkturquoise">darkturquoise<a class="self-link" href="#valdef-color-darkturquoise"></a></dfn>
+      </th><td>#00ced1
+      </td><td>0 206 209 
+     </td></tr><tr>
+      <td style="background:darkviolet">
+      </td><td style="background:#9400d3">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-darkviolet">darkviolet<a class="self-link" href="#valdef-color-darkviolet"></a></dfn>
+      </th><td>#9400d3
+      </td><td>148 0 211 
+     </td></tr><tr>
+      <td style="background:deeppink">
+      </td><td style="background:#ff1493">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-deeppink">deeppink<a class="self-link" href="#valdef-color-deeppink"></a></dfn>
+      </th><td>#ff1493
+      </td><td>255 20 147 
+     </td></tr><tr>
+      <td style="background:deepskyblue">
+      </td><td style="background:#00bfff">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-deepskyblue">deepskyblue<a class="self-link" href="#valdef-color-deepskyblue"></a></dfn>
+      </th><td>#00bfff
+      </td><td>0 191 255 
+     </td></tr><tr>
+      <td style="background:dimgray">
+      </td><td style="background:#696969">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-dimgray">dimgray<a class="self-link" href="#valdef-color-dimgray"></a></dfn>
+      </th><td>#696969
+      </td><td>105 105 105 
+     </td></tr><tr>
+      <td style="background:dimgrey">
+      </td><td style="background:#696969">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-dimgrey">dimgrey<a class="self-link" href="#valdef-color-dimgrey"></a></dfn>
+      </th><td>#696969
+      </td><td>105 105 105 
+     </td></tr><tr>
+      <td style="background:dodgerblue">
+      </td><td style="background:#1e90ff">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-dodgerblue">dodgerblue<a class="self-link" href="#valdef-color-dodgerblue"></a></dfn>
+      </th><td>#1e90ff
+      </td><td>30 144 255 
+     </td></tr><tr>
+      <td style="background:firebrick">
+      </td><td style="background:#b22222">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-firebrick">firebrick<a class="self-link" href="#valdef-color-firebrick"></a></dfn>
+      </th><td>#b22222
+      </td><td>178 34 34 
+     </td></tr><tr>
+      <td style="background:floralwhite">
+      </td><td style="background:#fffaf0">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-floralwhite">floralwhite<a class="self-link" href="#valdef-color-floralwhite"></a></dfn>
+      </th><td>#fffaf0
+      </td><td>255 250 240 
+     </td></tr><tr>
+      <td style="background:forestgreen">
+      </td><td style="background:#228b22">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-forestgreen">forestgreen<a class="self-link" href="#valdef-color-forestgreen"></a></dfn>
+      </th><td>#228b22
+      </td><td>34 139 34 
+     </td></tr><tr>
+      <td style="background:fuchsia">
+      </td><td style="background:#ff00ff">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-fuchsia">fuchsia<a class="self-link" href="#valdef-color-fuchsia"></a></dfn>
+      </th><td>#ff00ff
+      </td><td>255 0 255 
+     </td></tr><tr>
+      <td style="background:gainsboro">
+      </td><td style="background:#dcdcdc">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-gainsboro">gainsboro<a class="self-link" href="#valdef-color-gainsboro"></a></dfn>
+      </th><td>#dcdcdc
+      </td><td>220 220 220 
+     </td></tr><tr>
+      <td style="background:ghostwhite">
+      </td><td style="background:#f8f8ff">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-ghostwhite">ghostwhite<a class="self-link" href="#valdef-color-ghostwhite"></a></dfn>
+      </th><td>#f8f8ff
+      </td><td>248 248 255 
+     </td></tr><tr>
+      <td style="background:gold">
+      </td><td style="background:#ffd700">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-gold">gold<a class="self-link" href="#valdef-color-gold"></a></dfn>
+      </th><td>#ffd700
+      </td><td>255 215 0 
+     </td></tr><tr>
+      <td style="background:goldenrod">
+      </td><td style="background:#daa520">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-goldenrod">goldenrod<a class="self-link" href="#valdef-color-goldenrod"></a></dfn>
+      </th><td>#daa520
+      </td><td>218 165 32 
+     </td></tr><tr>
+      <td style="background:gray">
+      </td><td style="background:#808080">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-gray">gray<a class="self-link" href="#valdef-color-gray"></a></dfn>
+      </th><td>#808080
+      </td><td>128 128 128 
+     </td></tr><tr>
+      <td style="background:green">
+      </td><td style="background:#008000">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-green">green<a class="self-link" href="#valdef-color-green"></a></dfn>
+      </th><td>#008000
+      </td><td>0 128 0 
+     </td></tr><tr>
+      <td style="background:greenyellow">
+      </td><td style="background:#adff2f">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-greenyellow">greenyellow<a class="self-link" href="#valdef-color-greenyellow"></a></dfn>
+      </th><td>#adff2f
+      </td><td>173 255 47 
+     </td></tr><tr>
+      <td style="background:grey">
+      </td><td style="background:#808080">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-grey">grey<a class="self-link" href="#valdef-color-grey"></a></dfn>
+      </th><td>#808080
+      </td><td>128 128 128 
+     </td></tr><tr>
+      <td style="background:honeydew">
+      </td><td style="background:#f0fff0">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-honeydew">honeydew<a class="self-link" href="#valdef-color-honeydew"></a></dfn>
+      </th><td>#f0fff0
+      </td><td>240 255 240 
+     </td></tr><tr>
+      <td style="background:hotpink">
+      </td><td style="background:#ff69b4">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-hotpink">hotpink<a class="self-link" href="#valdef-color-hotpink"></a></dfn>
+      </th><td>#ff69b4
+      </td><td>255 105 180 
+     </td></tr><tr>
+      <td style="background:indianred">
+      </td><td style="background:#cd5c5c">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-indianred">indianred<a class="self-link" href="#valdef-color-indianred"></a></dfn>
+      </th><td>#cd5c5c
+      </td><td>205 92 92 
+     </td></tr><tr>
+      <td style="background:indigo">
+      </td><td style="background:#4b0082">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-indigo">indigo<a class="self-link" href="#valdef-color-indigo"></a></dfn>
+      </th><td>#4b0082
+      </td><td>75 0 130 
+     </td></tr><tr>
+      <td style="background:ivory">
+      </td><td style="background:#fffff0">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-ivory">ivory<a class="self-link" href="#valdef-color-ivory"></a></dfn>
+      </th><td>#fffff0
+      </td><td>255 255 240 
+     </td></tr><tr>
+      <td style="background:khaki">
+      </td><td style="background:#f0e68c">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-khaki">khaki<a class="self-link" href="#valdef-color-khaki"></a></dfn>
+      </th><td>#f0e68c
+      </td><td>240 230 140 
+     </td></tr><tr>
+      <td style="background:lavender">
+      </td><td style="background:#e6e6fa">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-lavender">lavender<a class="self-link" href="#valdef-color-lavender"></a></dfn>
+      </th><td>#e6e6fa
+      </td><td>230 230 250 
+     </td></tr><tr>
+      <td style="background:lavenderblush">
+      </td><td style="background:#fff0f5">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-lavenderblush">lavenderblush<a class="self-link" href="#valdef-color-lavenderblush"></a></dfn>
+      </th><td>#fff0f5
+      </td><td>255 240 245 
+     </td></tr><tr>
+      <td style="background:lawngreen">
+      </td><td style="background:#7cfc00">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-lawngreen">lawngreen<a class="self-link" href="#valdef-color-lawngreen"></a></dfn>
+      </th><td>#7cfc00
+      </td><td>124 252 0 
+     </td></tr><tr>
+      <td style="background:lemonchiffon">
+      </td><td style="background:#fffacd">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-lemonchiffon">lemonchiffon<a class="self-link" href="#valdef-color-lemonchiffon"></a></dfn>
+      </th><td>#fffacd
+      </td><td>255 250 205 
+     </td></tr><tr>
+      <td style="background:lightblue">
+      </td><td style="background:#add8e6">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-lightblue">lightblue<a class="self-link" href="#valdef-color-lightblue"></a></dfn>
+      </th><td>#add8e6
+      </td><td>173 216 230 
+     </td></tr><tr>
+      <td style="background:lightcoral">
+      </td><td style="background:#f08080">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-lightcoral">lightcoral<a class="self-link" href="#valdef-color-lightcoral"></a></dfn>
+      </th><td>#f08080
+      </td><td>240 128 128 
+     </td></tr><tr>
+      <td style="background:lightcyan">
+      </td><td style="background:#e0ffff">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-lightcyan">lightcyan<a class="self-link" href="#valdef-color-lightcyan"></a></dfn>
+      </th><td>#e0ffff
+      </td><td>224 255 255 
+     </td></tr><tr>
+      <td style="background:lightgoldenrodyellow">
+      </td><td style="background:#fafad2">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-lightgoldenrodyellow">lightgoldenrodyellow<a class="self-link" href="#valdef-color-lightgoldenrodyellow"></a></dfn>
+      </th><td>#fafad2
+      </td><td>250 250 210 
+     </td></tr><tr>
+      <td style="background:lightgray">
+      </td><td style="background:#d3d3d3">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-lightgray">lightgray<a class="self-link" href="#valdef-color-lightgray"></a></dfn>
+      </th><td>#d3d3d3
+      </td><td>211 211 211 
+     </td></tr><tr>
+      <td style="background:lightgreen">
+      </td><td style="background:#90ee90">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-lightgreen">lightgreen<a class="self-link" href="#valdef-color-lightgreen"></a></dfn>
+      </th><td>#90ee90
+      </td><td>144 238 144 
+     </td></tr><tr>
+      <td style="background:lightgrey">
+      </td><td style="background:#d3d3d3">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-lightgrey">lightgrey<a class="self-link" href="#valdef-color-lightgrey"></a></dfn>
+      </th><td>#d3d3d3
+      </td><td>211 211 211 
+     </td></tr><tr>
+      <td style="background:lightpink">
+      </td><td style="background:#ffb6c1">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-lightpink">lightpink<a class="self-link" href="#valdef-color-lightpink"></a></dfn>
+      </th><td>#ffb6c1
+      </td><td>255 182 193 
+     </td></tr><tr>
+      <td style="background:lightsalmon">
+      </td><td style="background:#ffa07a">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-lightsalmon">lightsalmon<a class="self-link" href="#valdef-color-lightsalmon"></a></dfn>
+      </th><td>#ffa07a
+      </td><td>255 160 122 
+     </td></tr><tr>
+      <td style="background:lightseagreen">
+      </td><td style="background:#20b2aa">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-lightseagreen">lightseagreen<a class="self-link" href="#valdef-color-lightseagreen"></a></dfn>
+      </th><td>#20b2aa
+      </td><td>32 178 170 
+     </td></tr><tr>
+      <td style="background:lightskyblue">
+      </td><td style="background:#87cefa">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-lightskyblue">lightskyblue<a class="self-link" href="#valdef-color-lightskyblue"></a></dfn>
+      </th><td>#87cefa
+      </td><td>135 206 250 
+     </td></tr><tr>
+      <td style="background:lightslategray">
+      </td><td style="background:#778899">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-lightslategray">lightslategray<a class="self-link" href="#valdef-color-lightslategray"></a></dfn>
+      </th><td>#778899
+      </td><td>119 136 153 
+     </td></tr><tr>
+      <td style="background:lightslategrey">
+      </td><td style="background:#778899">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-lightslategrey">lightslategrey<a class="self-link" href="#valdef-color-lightslategrey"></a></dfn>
+      </th><td>#778899
+      </td><td>119 136 153 
+     </td></tr><tr>
+      <td style="background:lightsteelblue">
+      </td><td style="background:#b0c4de">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-lightsteelblue">lightsteelblue<a class="self-link" href="#valdef-color-lightsteelblue"></a></dfn>
+      </th><td>#b0c4de
+      </td><td>176 196 222 
+     </td></tr><tr>
+      <td style="background:lightyellow">
+      </td><td style="background:#ffffe0">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-lightyellow">lightyellow<a class="self-link" href="#valdef-color-lightyellow"></a></dfn>
+      </th><td>#ffffe0
+      </td><td>255 255 224 
+     </td></tr><tr>
+      <td style="background:lime">
+      </td><td style="background:#00ff00">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-lime">lime<a class="self-link" href="#valdef-color-lime"></a></dfn>
+      </th><td>#00ff00
+      </td><td>0 255 0 
+     </td></tr><tr>
+      <td style="background:limegreen">
+      </td><td style="background:#32cd32">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-limegreen">limegreen<a class="self-link" href="#valdef-color-limegreen"></a></dfn>
+      </th><td>#32cd32
+      </td><td>50 205 50 
+     </td></tr><tr>
+      <td style="background:linen">
+      </td><td style="background:#faf0e6">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-linen">linen<a class="self-link" href="#valdef-color-linen"></a></dfn>
+      </th><td>#faf0e6
+      </td><td>250 240 230 
+     </td></tr><tr>
+      <td style="background:magenta">
+      </td><td style="background:#ff00ff">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-magenta">magenta<a class="self-link" href="#valdef-color-magenta"></a></dfn>
+      </th><td>#ff00ff
+      </td><td>255 0 255 
+     </td></tr><tr>
+      <td style="background:maroon">
+      </td><td style="background:#800000">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-maroon">maroon<a class="self-link" href="#valdef-color-maroon"></a></dfn>
+      </th><td>#800000
+      </td><td>128 0 0 
+     </td></tr><tr>
+      <td style="background:mediumaquamarine">
+      </td><td style="background:#66cdaa">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-mediumaquamarine">mediumaquamarine<a class="self-link" href="#valdef-color-mediumaquamarine"></a></dfn>
+      </th><td>#66cdaa
+      </td><td>102 205 170 
+     </td></tr><tr>
+      <td style="background:mediumblue">
+      </td><td style="background:#0000cd">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-mediumblue">mediumblue<a class="self-link" href="#valdef-color-mediumblue"></a></dfn>
+      </th><td>#0000cd
+      </td><td>0 0 205 
+     </td></tr><tr>
+      <td style="background:mediumorchid">
+      </td><td style="background:#ba55d3">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-mediumorchid">mediumorchid<a class="self-link" href="#valdef-color-mediumorchid"></a></dfn>
+      </th><td>#ba55d3
+      </td><td>186 85 211 
+     </td></tr><tr>
+      <td style="background:mediumpurple">
+      </td><td style="background:#9370db">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-mediumpurple">mediumpurple<a class="self-link" href="#valdef-color-mediumpurple"></a></dfn>
+      </th><td>#9370db
+      </td><td>147 112 219 
+     </td></tr><tr>
+      <td style="background:mediumseagreen">
+      </td><td style="background:#3cb371">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-mediumseagreen">mediumseagreen<a class="self-link" href="#valdef-color-mediumseagreen"></a></dfn>
+      </th><td>#3cb371
+      </td><td>60 179 113 
+     </td></tr><tr>
+      <td style="background:mediumslateblue">
+      </td><td style="background:#7b68ee">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-mediumslateblue">mediumslateblue<a class="self-link" href="#valdef-color-mediumslateblue"></a></dfn>
+      </th><td>#7b68ee
+      </td><td>123 104 238 
+     </td></tr><tr>
+      <td style="background:mediumspringgreen">
+      </td><td style="background:#00fa9a">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-mediumspringgreen">mediumspringgreen<a class="self-link" href="#valdef-color-mediumspringgreen"></a></dfn>
+      </th><td>#00fa9a
+      </td><td>0 250 154 
+     </td></tr><tr>
+      <td style="background:mediumturquoise">
+      </td><td style="background:#48d1cc">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-mediumturquoise">mediumturquoise<a class="self-link" href="#valdef-color-mediumturquoise"></a></dfn>
+      </th><td>#48d1cc
+      </td><td>72 209 204 
+     </td></tr><tr>
+      <td style="background:mediumvioletred">
+      </td><td style="background:#c71585">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-mediumvioletred">mediumvioletred<a class="self-link" href="#valdef-color-mediumvioletred"></a></dfn>
+      </th><td>#c71585
+      </td><td>199 21 133 
+     </td></tr><tr>
+      <td style="background:midnightblue">
+      </td><td style="background:#191970">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-midnightblue">midnightblue<a class="self-link" href="#valdef-color-midnightblue"></a></dfn>
+      </th><td>#191970
+      </td><td>25 25 112 
+     </td></tr><tr>
+      <td style="background:mintcream">
+      </td><td style="background:#f5fffa">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-mintcream">mintcream<a class="self-link" href="#valdef-color-mintcream"></a></dfn>
+      </th><td>#f5fffa
+      </td><td>245 255 250 
+     </td></tr><tr>
+      <td style="background:mistyrose">
+      </td><td style="background:#ffe4e1">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-mistyrose">mistyrose<a class="self-link" href="#valdef-color-mistyrose"></a></dfn>
+      </th><td>#ffe4e1
+      </td><td>255 228 225 
+     </td></tr><tr>
+      <td style="background:moccasin">
+      </td><td style="background:#ffe4b5">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-moccasin">moccasin<a class="self-link" href="#valdef-color-moccasin"></a></dfn>
+      </th><td>#ffe4b5
+      </td><td>255 228 181 
+     </td></tr><tr>
+      <td style="background:navajowhite">
+      </td><td style="background:#ffdead">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-navajowhite">navajowhite<a class="self-link" href="#valdef-color-navajowhite"></a></dfn>
+      </th><td>#ffdead
+      </td><td>255 222 173 
+     </td></tr><tr>
+      <td style="background:navy">
+      </td><td style="background:#000080">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-navy">navy<a class="self-link" href="#valdef-color-navy"></a></dfn>
+      </th><td>#000080
+      </td><td>0 0 128 
+     </td></tr><tr>
+      <td style="background:oldlace">
+      </td><td style="background:#fdf5e6">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-oldlace">oldlace<a class="self-link" href="#valdef-color-oldlace"></a></dfn>
+      </th><td>#fdf5e6
+      </td><td>253 245 230 
+     </td></tr><tr>
+      <td style="background:olive">
+      </td><td style="background:#808000">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-olive">olive<a class="self-link" href="#valdef-color-olive"></a></dfn>
+      </th><td>#808000
+      </td><td>128 128 0 
+     </td></tr><tr>
+      <td style="background:olivedrab">
+      </td><td style="background:#6b8e23">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-olivedrab">olivedrab<a class="self-link" href="#valdef-color-olivedrab"></a></dfn>
+      </th><td>#6b8e23
+      </td><td>107 142 35 
+     </td></tr><tr>
+      <td style="background:orange">
+      </td><td style="background:#ffa500">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-orange">orange<a class="self-link" href="#valdef-color-orange"></a></dfn>
+      </th><td>#ffa500
+      </td><td>255 165 0 
+     </td></tr><tr>
+      <td style="background:orangered">
+      </td><td style="background:#ff4500">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-orangered">orangered<a class="self-link" href="#valdef-color-orangered"></a></dfn>
+      </th><td>#ff4500
+      </td><td>255 69 0 
+     </td></tr><tr>
+      <td style="background:orchid">
+      </td><td style="background:#da70d6">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-orchid">orchid<a class="self-link" href="#valdef-color-orchid"></a></dfn>
+      </th><td>#da70d6
+      </td><td>218 112 214 
+     </td></tr><tr>
+      <td style="background:palegoldenrod">
+      </td><td style="background:#eee8aa">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-palegoldenrod">palegoldenrod<a class="self-link" href="#valdef-color-palegoldenrod"></a></dfn>
+      </th><td>#eee8aa
+      </td><td>238 232 170 
+     </td></tr><tr>
+      <td style="background:palegreen">
+      </td><td style="background:#98fb98">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-palegreen">palegreen<a class="self-link" href="#valdef-color-palegreen"></a></dfn>
+      </th><td>#98fb98
+      </td><td>152 251 152 
+     </td></tr><tr>
+      <td style="background:paleturquoise">
+      </td><td style="background:#afeeee">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-paleturquoise">paleturquoise<a class="self-link" href="#valdef-color-paleturquoise"></a></dfn>
+      </th><td>#afeeee
+      </td><td>175 238 238 
+     </td></tr><tr>
+      <td style="background:palevioletred">
+      </td><td style="background:#db7093">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-palevioletred">palevioletred<a class="self-link" href="#valdef-color-palevioletred"></a></dfn>
+      </th><td>#db7093
+      </td><td>219 112 147 
+     </td></tr><tr>
+      <td style="background:papayawhip">
+      </td><td style="background:#ffefd5">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-papayawhip">papayawhip<a class="self-link" href="#valdef-color-papayawhip"></a></dfn>
+      </th><td>#ffefd5
+      </td><td>255 239 213 
+     </td></tr><tr>
+      <td style="background:peachpuff">
+      </td><td style="background:#ffdab9">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-peachpuff">peachpuff<a class="self-link" href="#valdef-color-peachpuff"></a></dfn>
+      </th><td>#ffdab9
+      </td><td>255 218 185 
+     </td></tr><tr>
+      <td style="background:peru">
+      </td><td style="background:#cd853f">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-peru">peru<a class="self-link" href="#valdef-color-peru"></a></dfn>
+      </th><td>#cd853f
+      </td><td>205 133 63 
+     </td></tr><tr>
+      <td style="background:pink">
+      </td><td style="background:#ffc0cb">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-pink">pink<a class="self-link" href="#valdef-color-pink"></a></dfn>
+      </th><td>#ffc0cb
+      </td><td>255 192 203 
+     </td></tr><tr>
+      <td style="background:plum">
+      </td><td style="background:#dda0dd">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-plum">plum<a class="self-link" href="#valdef-color-plum"></a></dfn>
+      </th><td>#dda0dd
+      </td><td>221 160 221 
+     </td></tr><tr>
+      <td style="background:powderblue">
+      </td><td style="background:#b0e0e6">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-powderblue">powderblue<a class="self-link" href="#valdef-color-powderblue"></a></dfn>
+      </th><td>#b0e0e6
+      </td><td>176 224 230 
+     </td></tr><tr>
+      <td style="background:purple">
+      </td><td style="background:#800080">
+      </td><th scope="row"><dfn class="dfn-paneled css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-purple">purple</dfn>
+      </th><td>#800080
+      </td><td>128 0 128 
+     </td></tr><tr>
+      <td style="background:rebeccapurple">
+      </td><td style="background:#663399">
+      </td><th scope="row"><dfn class="dfn-paneled css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-rebeccapurple">rebeccapurple</dfn>
+      </th><td>#663399
+      </td><td>102 51 153 
+     </td></tr><tr>
+      <td style="background:red">
+      </td><td style="background:#ff0000">
+      </td><th scope="row"><dfn class="dfn-paneled css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-red">red</dfn>
+      </th><td>#ff0000
+      </td><td>255 0 0 
+     </td></tr><tr>
+      <td style="background:rosybrown">
+      </td><td style="background:#bc8f8f">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-rosybrown">rosybrown<a class="self-link" href="#valdef-color-rosybrown"></a></dfn>
+      </th><td>#bc8f8f
+      </td><td>188 143 143 
+     </td></tr><tr>
+      <td style="background:royalblue">
+      </td><td style="background:#4169e1">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-royalblue">royalblue<a class="self-link" href="#valdef-color-royalblue"></a></dfn>
+      </th><td>#4169e1
+      </td><td>65 105 225 
+     </td></tr><tr>
+      <td style="background:saddlebrown">
+      </td><td style="background:#8b4513">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-saddlebrown">saddlebrown<a class="self-link" href="#valdef-color-saddlebrown"></a></dfn>
+      </th><td>#8b4513
+      </td><td>139 69 19 
+     </td></tr><tr>
+      <td style="background:salmon">
+      </td><td style="background:#fa8072">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-salmon">salmon<a class="self-link" href="#valdef-color-salmon"></a></dfn>
+      </th><td>#fa8072
+      </td><td>250 128 114 
+     </td></tr><tr>
+      <td style="background:sandybrown">
+      </td><td style="background:#f4a460">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-sandybrown">sandybrown<a class="self-link" href="#valdef-color-sandybrown"></a></dfn>
+      </th><td>#f4a460
+      </td><td>244 164 96 
+     </td></tr><tr>
+      <td style="background:seagreen">
+      </td><td style="background:#2e8b57">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-seagreen">seagreen<a class="self-link" href="#valdef-color-seagreen"></a></dfn>
+      </th><td>#2e8b57
+      </td><td>46 139 87 
+     </td></tr><tr>
+      <td style="background:seashell">
+      </td><td style="background:#fff5ee">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-seashell">seashell<a class="self-link" href="#valdef-color-seashell"></a></dfn>
+      </th><td>#fff5ee
+      </td><td>255 245 238 
+     </td></tr><tr>
+      <td style="background:sienna">
+      </td><td style="background:#a0522d">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-sienna">sienna<a class="self-link" href="#valdef-color-sienna"></a></dfn>
+      </th><td>#a0522d
+      </td><td>160 82 45 
+     </td></tr><tr>
+      <td style="background:silver">
+      </td><td style="background:#c0c0c0">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-silver">silver<a class="self-link" href="#valdef-color-silver"></a></dfn>
+      </th><td>#c0c0c0
+      </td><td>192 192 192 
+     </td></tr><tr>
+      <td style="background:skyblue">
+      </td><td style="background:#87ceeb">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-skyblue">skyblue<a class="self-link" href="#valdef-color-skyblue"></a></dfn>
+      </th><td>#87ceeb
+      </td><td>135 206 235 
+     </td></tr><tr>
+      <td style="background:slateblue">
+      </td><td style="background:#6a5acd">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-slateblue">slateblue<a class="self-link" href="#valdef-color-slateblue"></a></dfn>
+      </th><td>#6a5acd
+      </td><td>106 90 205 
+     </td></tr><tr>
+      <td style="background:slategray">
+      </td><td style="background:#708090">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-slategray">slategray<a class="self-link" href="#valdef-color-slategray"></a></dfn>
+      </th><td>#708090
+      </td><td>112 128 144 
+     </td></tr><tr>
+      <td style="background:slategrey">
+      </td><td style="background:#708090">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-slategrey">slategrey<a class="self-link" href="#valdef-color-slategrey"></a></dfn>
+      </th><td>#708090
+      </td><td>112 128 144 
+     </td></tr><tr>
+      <td style="background:snow">
+      </td><td style="background:#fffafa">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-snow">snow<a class="self-link" href="#valdef-color-snow"></a></dfn>
+      </th><td>#fffafa
+      </td><td>255 250 250 
+     </td></tr><tr>
+      <td style="background:springgreen">
+      </td><td style="background:#00ff7f">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-springgreen">springgreen<a class="self-link" href="#valdef-color-springgreen"></a></dfn>
+      </th><td>#00ff7f
+      </td><td>0 255 127 
+     </td></tr><tr>
+      <td style="background:steelblue">
+      </td><td style="background:#4682b4">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-steelblue">steelblue<a class="self-link" href="#valdef-color-steelblue"></a></dfn>
+      </th><td>#4682b4
+      </td><td>70 130 180 
+     </td></tr><tr>
+      <td style="background:tan">
+      </td><td style="background:#d2b48c">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-tan">tan<a class="self-link" href="#valdef-color-tan"></a></dfn>
+      </th><td>#d2b48c
+      </td><td>210 180 140 
+     </td></tr><tr>
+      <td style="background:teal">
+      </td><td style="background:#008080">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-teal">teal<a class="self-link" href="#valdef-color-teal"></a></dfn>
+      </th><td>#008080
+      </td><td>0 128 128 
+     </td></tr><tr>
+      <td style="background:thistle">
+      </td><td style="background:#d8bfd8">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-thistle">thistle<a class="self-link" href="#valdef-color-thistle"></a></dfn>
+      </th><td>#d8bfd8
+      </td><td>216 191 216 
+     </td></tr><tr>
+      <td style="background:tomato">
+      </td><td style="background:#ff6347">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-tomato">tomato<a class="self-link" href="#valdef-color-tomato"></a></dfn>
+      </th><td>#ff6347
+      </td><td>255 99 71 
+     </td></tr><tr>
+      <td style="background:turquoise">
+      </td><td style="background:#40e0d0">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-turquoise">turquoise<a class="self-link" href="#valdef-color-turquoise"></a></dfn>
+      </th><td>#40e0d0
+      </td><td>64 224 208 
+     </td></tr><tr>
+      <td style="background:violet">
+      </td><td style="background:#ee82ee">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-violet">violet<a class="self-link" href="#valdef-color-violet"></a></dfn>
+      </th><td>#ee82ee
+      </td><td>238 130 238 
+     </td></tr><tr>
+      <td style="background:wheat">
+      </td><td style="background:#f5deb3">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-wheat">wheat<a class="self-link" href="#valdef-color-wheat"></a></dfn>
+      </th><td>#f5deb3
+      </td><td>245 222 179 
+     </td></tr><tr>
+      <td style="background:white">
+      </td><td style="background:#ffffff">
+      </td><th scope="row"><dfn class="dfn-paneled css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-white">white</dfn>
+      </th><td>#ffffff
+      </td><td>255 255 255 
+     </td></tr><tr>
+      <td style="background:whitesmoke">
+      </td><td style="background:#f5f5f5">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-whitesmoke">whitesmoke<a class="self-link" href="#valdef-color-whitesmoke"></a></dfn>
+      </th><td>#f5f5f5
+      </td><td>245 245 245 
+     </td></tr><tr>
+      <td style="background:yellow">
+      </td><td style="background:#ffff00">
+      </td><th scope="row"><dfn class="dfn-paneled css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-yellow">yellow</dfn>
+      </th><td>#ffff00
+      </td><td>255 255 0 
+     </td></tr><tr>
+      <td style="background:yellowgreen">
+      </td><td style="background:#9acd32">
+      </td><th scope="row"><dfn class="css" data-dfn-for="<color>" data-dfn-type="value" data-export="" id="valdef-color-yellowgreen">yellowgreen<a class="self-link" href="#valdef-color-yellowgreen"></a></dfn>
+      </th><td>#9acd32
+      </td><td>154 205 50 
+
+
+          </td></tr></tbody></th></tr></thead></table>
+        </div>
+
+        <h4>References</h4>
+
+        <ul>
+          <li><a href="javascript:;">CSS Color Module Level 4</a></li>
+        </ul>
+      </div>
+    </div> <!-- /.content-wrap -->
+
+	
+	<!-- Le javaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="static/js/jquery-1.10.2.min.js"></script>
+	<script src="static/js/bootstrap.min.js"></script>
+	<script src="static/js/jquery.touchSwipe.min.js"></script>
+	<script src="static/js/dash.js"></script>
+
+	<script src="static/js/i18nextify.min.js"></script>
+	<script type="text/javascript">
+		window.i18nextify.init({
+			debug: false,
+			//whitelist: ['en', 'zh-TW', 'zh-CN'],
+			//lngs: ['en', 'zh-TW', 'zh-CN'],
+			//preload: ['zh-TW', 'en', 'zh-CN'],
+			//fallbackLng: "en",
+			fallbackLng: false,
+			//load: "currentOnly",
+			namespaceFromPath: true,
+			backend: {
+				loadPath: "//lordforce.org/locales/{{lng}}/{{ns}}.json"
+			},
+			ns: ["translation"],
+         //defaultNS: 'image-editor',
+         fallbackNS: 'translation',
+		});
+	</script>
+
+	<script type="text/javascript">
+		// Ref: 
+		// http://w3bits.com/async-javascript/
+		// http://ajaxpatterns.org/On-Demand_Javascript
+		// http://friendlybit.com/js/lazy-loading-asyncronous-javascript/
+		// http://www.jaceju.net/blog/archives/beginning-requirejs/
+		// http://josephj.com/entry.php?id=394
+		function lazyLoadScript(url, async) {
+			var s = document.createElement('script');
+			s.type = 'text/javascript';
+			if (typeof async === 'boolean' && async == true){
+				s.async = true;
+			}
+			else {
+				s.async = false;
+			}
+			s.src = url;
+			var x = document.getElementsByTagName('head')[0];
+			x.appendChild(s);
+		}
+
+		
+		document.addEventListener('DOMContentLoaded', function() {
+
+			
+		});
+	</script>
+
+  </body>
+</html>
